@@ -1,0 +1,451 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    background-image: url(https://i.ibb.co/fq72WPk/background.png);
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__button button {
+    display: inline-block;
+    color: #fff;
+    background-color: #282728;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 8vh;
+}
+
+.header__button button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2em;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(-0.5em) skewX(-45deg);
+    animation: move 5s 5s infinite;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header_adress-text {
+    display: flex;
+    font-family: UniNeueRegular;
+}
+
+.header_adress-text b {
+    font-family: UniNeueHeavy;
+}
+
+.header__discription {
+    font-family: UniNeueRegular;
+}
+
+.header__discription b {
+    font-family: UniNeueHeavy;
+}
+
+.header_adress-text img {
+    height: fit-content;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.header_adress-text p:hover {
+    cursor: pointer;
+}
+
+.header__contacts-messagers img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: UniNeueBold;
+}
+
+.menu p:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 60px;
+    padding-top: 3vh;
+    font-family: UniNeueBook;
+}
+
+.title b {
+    font-family: UniNeueBold;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+    width: 55vw;
+    padding-bottom: 2vh;
+    padding-right: 29vw;
+}
+
+.benefits__item {
+    display: flex;
+    width: 18vw;
+    font-family: UniNeueBook;
+}
+
+.benefits__item b {
+    font-family: UniNeueBold;
+}
+
+.benefits__item img {
+    height: fit-content;
+}
+
+.benefits__item span {
+    font-size: 72px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer__sale-text {
+    font-family: UniNeueBook;
+}
+
+.footer__sale-text b {
+    font-family: UniNeueBold;
+}
+
+.footer__sale-text span {
+    background-color: white;
+
+}
+
+
+
+.footer__sale-button button {
+    font-family: UniNeueBold;
+    display: flex;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fe634f;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 19vw;
+    height: 9vh;
+    align-items: center;
+}
+
+.footer__sale-button button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2em;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(-0.5em) skewX(-45deg);
+    animation: move 5s 5s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0em) skewX(-45deg);
+    }
+
+    20%,
+    100% {
+        transform: translateX(30em) skewX(-45deg);
+    }
+}
+
+.footer__sale-button span {
+    text-align: left;
+}
+
+.footer__sale-button img {
+    padding-right: 1vw;
+}
+
+.footer__certificates {
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.footer__certificates-title {
+    font-family: UniNeueBold;
+    display: flex;
+    justify-content: center;
+}
+
+.header__contacts-phone {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: UniNeueHeavy;
+}
+
+.header__contacts-phone span:hover {
+    cursor: pointer;
+}
+
+.benefits__mobile {
+    display: none;
+}
+
+.header__mobile {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1220px) and (min-width: 651px) {
+
+    .header_adress-text {
+        display: none;
+    }
+
+    .header__discription {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .benefits {
+        justify-content: space-around;
+        width: 87vw;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .benefits__mobile {
+        display: none;
+    }
+
+    .header__mobile {
+        display: none;
+    }
+
+    .footer__sale-button button {
+        width: 31vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .header_adress-text {
+        display: none;
+    }
+
+    .header__discription {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .benefits {
+        justify-content: space-around;
+        width: 87vw;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 14vw;
+    }
+
+    .benefits {
+        display: none;
+    }
+
+    .benefits__mobile {
+        display: block;
+    }
+
+
+    .header__discription {
+        display: none;
+    }
+
+    .header_adress-text {
+        display: none;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .header__mobile {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1vh;
+    }
+
+    .header__mobile-button button {
+        font-family: UniNeueBold;
+        display: inline-block;
+        color: #fff;
+        background-color: #282728;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 8vh;
+    }
+
+    .header__mobile-button button:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2em;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.3);
+        transform: translateX(-0.5em) skewX(-45deg);
+        animation: move 5s 5s infinite;
+    }
+
+    .benefits__mobile-item {
+        display: flex;
+    }
+
+    .benefits__mobile-item img {
+        height: fit-content;
+    }
+
+    .benefits__mobile-item span {
+        font-size: 72px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__sale-button button {
+        width: 94vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__certificates-images {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
+@font-face {
+    font-family: "UniNeueBlack";
+    src: url("/fonts/UniNeueBlack.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueBlack-Italic";
+    src: url("/fonts/UniNeueBlack-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueBold";
+    src: url("/fonts/UniNeueBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueBold-Italic";
+    src: url("/fonts/UniNeueBold-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueBook";
+    src: url("/fonts/UniNeueBook.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueBook-Italic";
+    src: url("/fonts/UniNeueBook-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueHeavy";
+    src: url("/fonts/UniNeueHeavy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueHeavy-Italic";
+    src: url("/fonts/UniNeueHeavy-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueLight";
+    src: url("/fonts/UniNeueLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueLight-Italic";
+    src: url("/fonts/UniNeueLight-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueRegular";
+    src: url("/fonts/UniNeueRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueRegular-Italic";
+    src: url("/fonts/UniNeueRegular-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueThin";
+    src: url("/fonts/UniNeueThin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniNeueThin-Italic";
+    src: url("/fonts/UniNeueThin-Italic.ttf") format("truetype");
+}
