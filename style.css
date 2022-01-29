@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    
+
 
 }
 
@@ -12,7 +12,7 @@ body {
     padding-bottom: 10vh;
     background-size: cover;
     background-repeat: no-repeat;
-
+    
 }
 
 .header {
@@ -233,7 +233,7 @@ button:hover {
     display: none;
 }
 
-.mySwiper{
+.mySwiper {
     display: none;
 }
 
@@ -268,10 +268,21 @@ button:hover {
     object-fit: cover;
 }
 
+/* .map{
+    display: flex;
+    justify-content: center;
+} */
 
+.map{
+    display: none;
+    text-align: center;
+}
 
 
 @media screen and (max-width: 1220px) and (min-width: 725px) {
+
+
+
 
     .header_adress-text {
         display: none;
@@ -317,10 +328,10 @@ button:hover {
         cursor: pointer;
     }
 
-    .mySwiper{
+    .mySwiper {
         display: none;
     }
-    
+
     .swiper {
         display: none;
     }
@@ -433,7 +444,7 @@ button:hover {
         justify-content: center;
     }
 
-    .footer__certificates{
+    .footer__certificates {
         display: none;
     }
 
@@ -453,13 +464,13 @@ button:hover {
         cursor: pointer;
     }
 
-    .mySwiper{
+    .mySwiper {
         display: block;
     }
-    
+
     .swiper {
         display: block;
-        
+
     }
 
 

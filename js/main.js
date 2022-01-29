@@ -18,3 +18,7 @@ var swiper = new Swiper(".mySwiper", {
 $('.burger').click(function () {
     $('.menu').toggle(500);
 });
+
+$('.header_adress-text').click(function () {
+  $('.map').toggle(500);
+});
