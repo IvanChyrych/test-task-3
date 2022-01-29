@@ -1,5 +1,3 @@
-/* Мобильное меню */
-$('.burger').click(function() {
+$('.burger').click(function () {
     $('.menu').toggle(500);
-    $(this).toggleClass('close');
 });

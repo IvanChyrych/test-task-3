@@ -92,6 +92,10 @@ button:hover {
     font-family: UniNeueBold;
 }
 
+.menu p{
+    text-align: center;
+}
+
 .menu p:hover {
     cursor: pointer;
 }
@@ -232,6 +236,9 @@ button:hover {
 
 
 
+
+
+
 @media screen and (max-width: 1220px) and (min-width: 725px) {
 
     .header_adress-text {
@@ -277,6 +284,8 @@ button:hover {
     .burger:hover {
         cursor: pointer;
     }
+
+    
 }
 
 @media screen and (max-width: 724px) {
@@ -398,6 +407,8 @@ button:hover {
     .burger:hover {
         cursor: pointer;
     }
+
+    
 
 
 }
