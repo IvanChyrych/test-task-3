@@ -1,8 +1,8 @@
 body {
     margin: auto;
-    display: flex;
-    justify-content: center;
-    
+    /* display: flex;
+    justify-content: center; */
+
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
     padding-bottom: 10vh;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .header {
@@ -226,11 +226,13 @@ button:hover {
     display: none;
 }
 
+.burger {
+    display: none;
+}
 
 
 
-
-@media screen and (max-width: 1220px) and (min-width: 651px) {
+@media screen and (max-width: 1220px) and (min-width: 725px) {
 
     .header_adress-text {
         display: none;
@@ -246,7 +248,7 @@ button:hover {
 
     .benefits {
         justify-content: space-around;
-        width: 87vw;
+        /* width: 87vw; */
     }
 
     .title {
@@ -264,9 +266,20 @@ button:hover {
     .footer__sale-button button {
         width: 31vw;
     }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger:hover {
+        cursor: pointer;
+    }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 724px) {
 
     .container {
         padding: 0;
@@ -374,6 +387,19 @@ button:hover {
         display: flex;
         justify-content: space-around;
     }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger:hover {
+        cursor: pointer;
+    }
+
+
 }
 
 
