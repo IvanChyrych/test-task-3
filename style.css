@@ -1,7 +1,6 @@
 body {
     margin: auto;
-    /* display: flex;
-    justify-content: center; */
+    
 
 }
 
@@ -92,7 +91,7 @@ button:hover {
     font-family: UniNeueBold;
 }
 
-.menu p{
+.menu p {
     text-align: center;
 }
 
@@ -234,7 +233,40 @@ button:hover {
     display: none;
 }
 
+.mySwiper{
+    display: none;
+}
 
+.swiper {
+    display: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -285,7 +317,15 @@ button:hover {
         cursor: pointer;
     }
 
+    .mySwiper{
+        display: none;
+    }
     
+    .swiper {
+        display: none;
+    }
+
+
 }
 
 @media screen and (max-width: 724px) {
@@ -384,12 +424,17 @@ button:hover {
 
     .footer {
         flex-direction: column;
+        padding: 4px;
     }
 
     .footer__sale-button button {
         width: 94vw;
         display: flex;
         justify-content: center;
+    }
+
+    .footer__certificates{
+        display: none;
     }
 
     .footer__certificates-images {
@@ -408,7 +453,14 @@ button:hover {
         cursor: pointer;
     }
 
+    .mySwiper{
+        display: block;
+    }
     
+    .swiper {
+        display: block;
+        
+    }
 
 
 }
