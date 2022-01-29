@@ -382,70 +382,70 @@ button:hover {
 
 @font-face {
     font-family: "UniNeueBlack";
-    src: url("/fonts/UniNeueBlack.ttf") format("truetype");
+    src: url("./fonts/UniNeueBlack.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueBlack-Italic";
-    src: url("/fonts/UniNeueBlack-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueBlack-Italic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueBold";
-    src: url("/fonts/UniNeueBold.ttf") format("truetype");
+    src: url("./fonts/UniNeueBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueBold-Italic";
-    src: url("/fonts/UniNeueBold-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueBold-Italic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueBook";
-    src: url("/fonts/UniNeueBook.ttf") format("truetype");
+    src: url("./fonts/UniNeueBook.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueBook-Italic";
-    src: url("/fonts/UniNeueBook-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueBook-Italic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueHeavy";
-    src: url("/fonts/UniNeueHeavy.ttf") format("truetype");
+    src: url("./fonts/UniNeueHeavy.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueHeavy-Italic";
-    src: url("/fonts/UniNeueHeavy-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueHeavy-Italic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueLight";
-    src: url("/fonts/UniNeueLight.ttf") format("truetype");
+    src: url("./fonts/UniNeueLight.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueLight-Italic";
-    src: url("/fonts/UniNeueLight-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueLight-Italic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueRegular";
-    src: url("/fonts/UniNeueRegular.ttf") format("truetype");
+    src: url("./fonts/UniNeueRegular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueRegular-Italic";
-    src: url("/fonts/UniNeueRegular-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueRegular-Italic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueThin";
-    src: url("/fonts/UniNeueThin.ttf") format("truetype");
+    src: url("./fonts/UniNeueThin.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "UniNeueThin-Italic";
-    src: url("/fonts/UniNeueThin-Italic.ttf") format("truetype");
+    src: url("./fonts/UniNeueThin-Italic.ttf") format("truetype");
 }
