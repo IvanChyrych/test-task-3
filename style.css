@@ -1,4 +1,6 @@
-
+body{
+margin: 0;
+}
 
 .container {
     background-image: url(https://i.ibb.co/fq72WPk/background.png);
